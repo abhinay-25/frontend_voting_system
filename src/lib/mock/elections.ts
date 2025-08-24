@@ -1,0 +1,43 @@
+import type { Election } from "@/types"
+
+export const mockElections: Election[] = [
+  {
+    id: "1",
+    title: "Presidential Election 2024",
+    description: "National presidential election to elect the next president of the country.",
+    start: "2024-11-01T08:00:00Z",
+    end: "2024-11-01T20:00:00Z",
+    status: "active",
+    createdBy: "1",
+    allowLateJoiners: false,
+    anonymousReceipts: true,
+    createdAt: "2024-10-01T10:00:00Z",
+    updatedAt: "2024-10-15T14:30:00Z",
+  },
+  {
+    id: "2",
+    title: "City Council Election",
+    description: "Local city council election for district representatives.",
+    start: "2024-12-15T09:00:00Z",
+    end: "2024-12-15T18:00:00Z",
+    status: "draft",
+    createdBy: "1",
+    allowLateJoiners: true,
+    anonymousReceipts: false,
+    createdAt: "2024-10-20T16:00:00Z",
+    updatedAt: "2024-10-20T16:00:00Z",
+  },
+  {
+    id: "3",
+    title: "School Board Election",
+    description: "Election for school board members to represent educational interests.",
+    start: "2024-09-15T08:00:00Z",
+    end: "2024-09-15T19:00:00Z",
+    status: "closed",
+    createdBy: "1",
+    allowLateJoiners: false,
+    anonymousReceipts: true,
+    createdAt: "2024-08-01T12:00:00Z",
+    updatedAt: "2024-09-16T10:00:00Z",
+  },
+]
